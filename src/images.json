@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "John Wayne",
+      "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNzIyMzI2MDMw/john-wayne-9525664-1-402.jpg"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "image": "https://i.pinimg.com/originals/26/cd/e9/26cde9bd1d93058a20d80a406524de8c.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ron Burgundy",
+      "image": "http://www-tc.pbs.org/prod-media/newshour/photos/2013/12/01/91566_blog_main_horizontal.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ivar the Boneless",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ivar-the-boneless-vikings-season-5-1545298472.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Freydis",
+      "image": "https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/01/vikings-birth-2-14a2.jpg?quality=90&strip=all&zoom=1&resize=644%2C362&ssl=1"
+    },
+    {
+      "id": 6,
+      "name": "Pablo Escobar",
+      "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTM5MjE5MzAzODUyNDE4Mzk5/pablo-escobar-gettyimages-452490135_621jpg.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Selene",
+      "image": "https://www.telegraph.co.uk/content/dam/films/2017/01/12/underworld1_trans_NvBQzQNjv4BqgsaO8O78rhmZrDxTlQBjdGLvJF5WfpqnBZShRL_tOZw.jpg?imwidth=1400"
+      
+    },
+    {
+      "id": 8,
+      "name": "Lucian",
+      "image": "https://www.clickthecity.com/img2/articles/CTC-4285-image4.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Seven of Nine",
+      "image": "https://vignette.wikia.nocookie.net/memory-gamma/images/d/dd/Female_Borg.jpg/revision/latest?cb=20100211234748"
+      
+    },
+    {
+      "id": 10,
+      "name": "Zambora(before)",
+      "image": "https://vignette.wikia.nocookie.net/jamesbond/images/e/eb/Screenshot_2015-04-12_16.png/revision/latest?cb=20170630025638"
+    },
+    {
+      "id": 11,
+      "name": "John Wick",
+      "image": "https://cdn.newsledge.com/wp-content/uploads/2019/01/john-wick-chapter-3-release-date.jpg"
+      
+    },
+    {
+      "id": 12,
+      "name": "Zambora(after)",
+      "image": "https://vignette.wikia.nocookie.net/jamesbond/images/a/af/Zambora_%28gorilla%29.png/revision/latest/scale-to-width-down/473?cb=20180424223050"
+      
+    }
+  ]
+  
