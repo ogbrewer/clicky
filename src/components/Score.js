@@ -6,9 +6,21 @@ class Score extends React.Component {
   state = {
     score: 0
   };
+  addtoChosen = id => {
+    var chosen = this.state.chosen;
+    var n = chosen.includes(id)
+    if (n === false) {
+      this.upScore();
 
+    }
+    else{
+      this.reSet();
+
+    }
+  }
+    
   // handleIncrement increases this.state.score by 1
-  handleIncrement = () => {
+  upScore = () => {
     // We always use the setState method to update a component's state
     this.setState({ score: this.state.score + 1 });
   };
