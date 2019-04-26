@@ -4,7 +4,6 @@ import ImageCard from "./components/ImageCards";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import images from "./images.json";
-import Score from "./components/Score";
 
 function shuffle(a) {
   var j, x, i;
@@ -22,8 +21,16 @@ class App extends Component {
     chosen: [],
     score: 0
   };
+   upScore() {
+    const newScore=this.state.score+1;
+    console.log(newScore);
+
+    this.setState({ score: newScore });
+    console.log(this.state.score)
+  };
   addtoChosen = id => {
     var chosen = this.state.chosen;
+    var score = this.state.score;
     var n = chosen.includes(id)
     if (n === false) {
 
@@ -31,11 +38,10 @@ class App extends Component {
       chosen.push(id);
       console.log(id);
       this.setState({ chosen });
-
       this.shuffleCards();
 
       this.upScore();
-
+      console.log(this.state.score)
     }
     else {
       alert("Wrong!")
@@ -43,6 +49,7 @@ class App extends Component {
       this.reSet();
     }
   };
+
   shuffleCards = () => {
     shuffle(this.state.images);
     this.setState({
@@ -50,18 +57,19 @@ class App extends Component {
     });
 
   }
-  upScore = () => {
-    this.setState({ score: this.state.score + 1 });
-  };
+  
   reSet = () => {
-    this.setState({ score: this.state.score = 0 });
-  };
+    const newScore=0;
+    console.log(newScore);
+
+    this.setState({ score: newScore });
+    console.log(this.state.score)  };
   render() {
     return (
       <Wrapper>
-        <Title>Image List</Title>
-        <Score />
-
+        <Title>Image List Score:{this.state.score} </Title>
+        
+      
         {this.state.images.map(image => (
           <ImageCard
             selectCard={this.addtoChosen}
@@ -70,10 +78,10 @@ class App extends Component {
             name={image.name}
             image={image.image}
           />
-        ))}
-
+        ))}  
+      
       </Wrapper>
-
+       
     )
   }
 }
